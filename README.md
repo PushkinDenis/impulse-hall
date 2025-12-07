@@ -1,5 +1,3 @@
-# Vue 3 + TypeScript + Vite
+## Impulse Hall
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+https://www.figma.com/design/gd0qnh2EkIcY992nQlx5eT/%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BF%D1%83%D0%B4%D0%B0%D1%84%D0%B5%D0%B5%D0%B2?node-id=0-1&p=f&t=h65bzy67SEFUTliv-0
