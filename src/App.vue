@@ -1,6 +1,8 @@
 <template>
   <div>Hello World!</div>
-  <Gallery :images="photos" />
+  <div class="first-gallery">
+    <Gallery :images="photos" />
+  </div>
 </template>
 
 <style scoped>

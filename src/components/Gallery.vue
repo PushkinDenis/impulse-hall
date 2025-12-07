@@ -1,5 +1,5 @@
 <template>
-  <div class="carousel-container">
+  <div class="gallery-container">
     <h2 class="title">Галерея</h2>
 
     <!-- стрелки -->
@@ -7,15 +7,15 @@
     <button class="arrow arrow-right" @click="nextGroup">→</button>
 
     <!-- картинки -->
-    <div class="carousel-wrapper">
+    <div class="gallery-wrapper">
       <div
-        class="carousel-track"
+        class="gallery-track"
         :style="{
           transform: `translateX(-${currentGroup * (100 / groups.length)}%)`,
           transition: 'transform 0.6s ease'
         }"
       >
-        <div v-for="(group, index) in groups" :key="index" class="carousel-group">
+        <div v-for="(group, index) in groups" :key="index" class="gallery-group">
           <img v-for="(img, i) in group" :key="i" :src="img" class="image" />
         </div>
       </div>
@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: "Carousel",
+  name: "gallery",
   props: {
     images: Array
   },
@@ -87,7 +87,7 @@ export default {
 </script>
 
 <style scoped>
-.carousel-container {
+.gallery-container {
   width: 900px;
   margin: 0 auto;
   position: relative;
@@ -102,18 +102,18 @@ export default {
   color: black;
 }
 
-.carousel-wrapper {
+.gallery-wrapper {
   width: 100%;
   overflow: hidden;
   position: relative;
 }
 
-.carousel-track {
+.gallery-track {
   display: flex;
   width: 300%;
 }
 
-.carousel-group {
+.gallery-group {
   width: 100%;
   display: flex;
   justify-content: space-between;
