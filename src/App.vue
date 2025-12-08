@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import Button from './Button.vue';
   import DescriptionPage from "./components/DescriptionPage/DescriptionPage.vue";
+  import MembershipPage from "./components/MembershipPage/MembershipPage.vue";
 </script>
 
 <template>
@@ -12,6 +13,7 @@
     <Button>{{ 'Зарегестрироваться' }}</Button>
   </div>
   <DescriptionPage/>
+  <MembershipPage/>
 </template>
 
 <style scoped>

@@ -40,10 +40,10 @@
 
 <script setup lang="ts">
   import { ref } from "vue";
-  import Gallery1 from "./page_components/Gallery1.vue";
-  import Gallery2 from "./page_components/Gallery2.vue";
-  import Description from "./page_components/Description.vue";
-  import Description_icons from "./page_components/DescriptionIcons.vue";
+  import Gallery1 from "./Layout/Gallery1.vue";
+  import Gallery2 from "./Layout/Gallery2.vue";
+  import Description from "./Layout/Description.vue";
+  import Description_icons from "./Layout/DescriptionIcons.vue";
 
   const images1 = ref([
     "images/uzbek1.png",
