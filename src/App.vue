@@ -1,11 +1,23 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Button from './Button.vue';
+</script>
 
 <template>
-  <div>Hello World!</div>
+  <div class="container">
+    <div>cscsc</div>
+    <Button>{{ 'Получить консультацию' }}</Button>
+    <Button color="orange">{{ 'Получить консультацию' }}</Button>
+    <Button variant="custom">{{ 'Получить консультацию' }}</Button>
+    <Button>{{ 'Зарегестрироваться' }}</Button>
+  </div>
 </template>
 
 <style scoped>
-div {
-  font-family: var(--font-main);
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 </style>

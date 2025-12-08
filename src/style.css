@@ -5,6 +5,18 @@
   --color-grey: #85898b;
 
   --font-main: 'Montserrat', sans-serif;
+
+  --font-bold: 700;
+}
+
+* {
+  font-family: var(--font-main);
+}
+
+html body {
+  margin: 0;
+  background: var(--color-bg);
+  height: 100vh;
 }
 
 @font-face {
