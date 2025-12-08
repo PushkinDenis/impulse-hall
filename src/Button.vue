@@ -27,6 +27,7 @@ defineOptions({ name: 'AppButton' });
 .cont {
   position: relative;
   display: inline-block;
+  max-width: fit-content;
 }
 
 .cont.custom::before {
