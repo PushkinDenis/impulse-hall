@@ -24,7 +24,7 @@
 <style scoped>
 .main-footer {
   position: relative;
-  height: 150px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
