@@ -16,12 +16,4 @@
   <MembershipPage/>
 </template>
 
-<style scoped>
-.container {
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-</style>
+<style scoped></style>
