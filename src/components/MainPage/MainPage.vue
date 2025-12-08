@@ -22,6 +22,7 @@ defineOptions({ name: 'MainPage' });
 
 <style scoped>
 .main-page-cont {
+
   position: relative;
   display: flex;
   flex-direction: column;

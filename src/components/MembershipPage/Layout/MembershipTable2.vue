@@ -91,6 +91,7 @@
   }
   .title {
     text-align: center;
+    font-size: 25px;
     font-weight: bold;
     height: 100px;
   }
