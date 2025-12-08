@@ -10,7 +10,8 @@
   .third-block {
     display: flex;
     flex-direction: column;
-    height: 120vh;
+    min-height: 130vh;
+    padding-bottom: 100px;
     background: white;
     color: var(--color-bg);
   }
