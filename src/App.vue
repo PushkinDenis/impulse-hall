@@ -1,22 +1,25 @@
+<script setup lang="ts">
+  import Button from './Button.vue';
+  import DescriptionPage from "./components/DescriptionPage/DescriptionPage.vue";
+</script>
+
 <template>
-  <div>Hello World!</div>
-  <div class="first-block">
-    <div class="header">
-
-    </div>
-    <div class="middle-content">
-
-    </div>
-    <div class="footer">
-      
-    </div>
+  <div class="container">
+    <div>cscsc</div>
+    <Button>{{ 'Получить консультацию' }}</Button>
+    <Button color="orange">{{ 'Получить консультацию' }}</Button>
+    <Button variant="custom">{{ 'Получить консультацию' }}</Button>
+    <Button>{{ 'Зарегестрироваться' }}</Button>
   </div>
   <DescriptionPage/>
 </template>
 
 <style scoped>
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 </style>
-
-<script setup lang="ts">
-  import DescriptionPage from "./components/DescriptionPage/DescriptionPage.vue";
-</script>
