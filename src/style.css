@@ -19,6 +19,27 @@ html body {
   height: 100vh;
 }
 
+div {
+  font-family: var(--font-main);
+}
+
+.first-block {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid black; /* TODO: Убрать! Временное решение для видимости границ пустого блока */
+}
+
+.second-block {
+  overflow: hidden;
+  background: var(--color-bg);
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 @font-face {
   font-family: 'Montserrat';
   src: url('./fonts/Montserrat.woff2') format('woff2');

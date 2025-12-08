@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import Button from './Button.vue';
+  import Button from './Button.vue';
+  import DescriptionPage from "./components/DescriptionPage/DescriptionPage.vue";
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import Button from './Button.vue';
     <Button variant="custom">{{ 'Получить консультацию' }}</Button>
     <Button>{{ 'Зарегестрироваться' }}</Button>
   </div>
+  <DescriptionPage/>
 </template>
 
 <style scoped>
