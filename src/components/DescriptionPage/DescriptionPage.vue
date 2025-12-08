@@ -6,10 +6,36 @@
       <Gallery1 :images="images1" />
       <Gallery2 :images="images2" />
     </div>
+    <div class="rectangles">
+      <img src="/images/rectangle1.png"></img>
+      <img src="/images/rectangle2.png"></img>
+    </div>
   </div>
 </template>
 
 <style scoped>
+  .gallery {
+    padding-bottom: 150px;
+  }
+  .rectangles {
+    position: relative;
+
+    > img {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 160px;
+    }
+
+    > img:first-child {
+      z-index: 10;
+      width: 120px;
+    }
+
+    > img:last-child {
+      z-index: 5;
+    }
+  }
 </style>
 
 <script setup lang="ts">

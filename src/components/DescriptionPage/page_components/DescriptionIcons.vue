@@ -28,7 +28,7 @@
   .description-icons {
     display: flex;
     width: auto;
-    height: 100%;
+    height: 200px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;

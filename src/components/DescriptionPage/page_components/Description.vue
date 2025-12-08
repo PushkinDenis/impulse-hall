@@ -43,7 +43,7 @@
   .description {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 50px;
     padding: 70px 70px 70px 70px;
   }
   .training-img {

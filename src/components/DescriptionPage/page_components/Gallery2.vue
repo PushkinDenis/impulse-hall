@@ -121,7 +121,7 @@ export default {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 32px;
+  font-size: 45px;
   background: none;
   border: none;
   color: var(--color-bg-light);
@@ -132,15 +132,16 @@ export default {
 }
 
 .arrow:hover {
+  color: var(--color-orange);
   opacity: 1;
 }
 
 .arrow-left {
-  left: -40px; /* выносим стрелку левее */
+  left: -250px; /* выносим стрелку левее */
 }
 
 .arrow-right {
-  right: -40px; /* выносим стрелку правее */
+  right: -250px; /* выносим стрелку правее */
 }
 
 /* ---------- нижний ползунок ---------- */
